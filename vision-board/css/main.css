@@ -1,0 +1,62 @@
+/****** BODY ******/
+
+body {
+    background: #E8E8E8;
+}
+#vision-board {
+    color: #3b3b3b;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 1200px;
+    height: 850px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.block {
+    float: left;
+    width: 400px;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 15px 0 15px;
+}
+.large-block {
+    height: 430px;
+    padding: 35px 15px 0 15px;
+}
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+.light-bg {
+    background-color: white;
+}
+.dark-bg {
+    background-color: #3b3b3b;
+}
+h1 {
+    color: white;
+    font-size: 38px;
+}
+h1 span {
+    font-family: 'Permanent Marker', cursive;
+}
+p span {
+    background-color:#FFF44F;
+    font-size: 30px;
+    padding-left: 10px;
+}
+strong {
+    font-size: 38px;
+    text-transform: capitalize;
+}
